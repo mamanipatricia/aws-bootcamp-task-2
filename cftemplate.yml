@@ -211,7 +211,7 @@ Outputs:
   VpcId:
     Value: !Ref VPC
   
-  LoadBalancerDNS:
+  LoadBalancerDNSName:
     Description: DNS name of the Application Load Balancer
     Value: !GetAtt ApplicationLoadBalancer.DNSName
     Export:
